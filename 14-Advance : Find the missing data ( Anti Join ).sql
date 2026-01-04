@@ -1,6 +1,14 @@
 """
   Find the missing data ( Anti Join )
-"""
+
+ Remember : 
+    - An Anti-Join is a specific type of join used to find rows in one table that have no matching records in another table. 
+    While 'Anti-Join' is the conceptual name used in database theory, it is typically implemented in SQL using a LEFT JOIN
+    combined with a WHERE clause or the NOT EXISTS operator.
+    
+    -Think of it as the opposite of an INNER JOIN. Instead of finding the intersection, you are finding the 'leftovers.'
+  
+  """
   
 create table campaign (
   campaign_id bigint,
